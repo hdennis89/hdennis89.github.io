@@ -1,0 +1,90 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+  margin: 0;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+body{
+    font-family: 'Open Sans';
+}
+
+header{
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    z-index: 10000;
+    height: 150px;
+    overflow: hidden;
+    background-color: white;
+    padding-top: 60px;
+}
+
+ul li{
+    list-style: none;
+    display: inline;
+    margin-right: 20px;
+}
+
+ul a:hover{
+    text-decoration: underline;
+}
+
+#container{
+    width: 100%;
+    margin-top: 150px;
+}
+
+#container div{
+    width: 300px;
+    height: 300px;
+    float: left;
+    margin: 10px;
+}
+
+#p1{
+    background-image: url(photoshop_quadrat.jpg);
+    background-size: cover;
+    background-color: green;
+}
+
+#p2{
+    background-image: url(layout_quadrat.jpg);
+    background-size: cover;
+    background-color: yellow;
+}
+
+#p3{
+    background-image: url(spacegoat_quadrat.jpg);
+    background-size: cover;
+    background-color: black;
+}
+
+#p4{
+    background-image: url(spacegoatE1_quadrat.png);
+    background-size: cover;
+    background-color: blue;
+}
+
+#p5{
+    background-color: grey;
+}
+
+#p6{
+    background-color: brown;
+}
+
+#p7{
+    background-color: pink;
+}
+
+#p8{
+    background-color: purple;
+}
