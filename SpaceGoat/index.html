@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+<link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon" />
+    <head>
+        <title>SpaceGoat</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!--2D-font from https://www.google.com/fonts/specimen/Press+Start+2P-->
+        <link href='https://fonts.googleapis.com/css?family=Press+Start+2P' rel='stylesheet' type='text/css'>
+        <style>
+            body{
+                background: URL("images/start.jpg");
+                background-size: cover;
+                margin: 0;
+                overflow: hidden;
+                font-family: 'Press Start 2P';
+                color: white;
+                text-align: center;
+            }
+
+            #title{
+                font-size: 100px;
+                top: 20px;
+            }
+            
+            a{
+                color: white;
+                text-decoration: none;
+                font-size: 20px;
+                top: 200px;
+            }
+            
+            a:hover{
+                font-size: 150%;
+            }
+        </style>
+    </head>
+    <body>
+        <p id='title'>SpaceGoat</p>
+        <a href='game.html'>Click here to play</a>
+		<audio src = "./sounds/intro.wav" autoplay = "true" loop = "true"></audio>
+    </body>
+</html>

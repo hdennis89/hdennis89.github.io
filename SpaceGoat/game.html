@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon" />
+    <head>
+        <title>SpaceGoat</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href='https://fonts.googleapis.com/css?family=Press+Start+2P' rel='stylesheet' type='text/css'>
+        <style>
+            body{
+                background: URL("images/galaxy.jpg");
+                background-position: center;
+                background-size: cover;
+                margin: 0;
+                overflow: hidden;
+                font-family: 'Press Start 2P';
+            }
+        </style>
+    </head>
+    <body>
+	   <audio src="./sounds/start.wav" autoplay = true></audio>
+	   <audio src="./sounds/testsong.mp3" autoplay = "true" loop="true" volume = "0,3"></audio>
+        <script src="js/three.min.js"></script>
+        <!-- font for 3D-Text from http://www.dafont.com/arcade-ya.font?text=press+2+play -->
+        <script src="js/arcade_normal_regular.typeface.js"></script>
+        <!-- Particle engine from http://squarefeet.github.io/ShaderParticleEngine/ -->
+        <script src="js/particles/ShaderParticles.min.js"></script>
+        <script src="js/script.js"></script>  
+    </body>
+</html>
